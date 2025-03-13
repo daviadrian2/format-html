@@ -2,10 +2,72 @@
 <html>
 <head>
     <meta name="author" content="Davi Adrian">
+	<style>
+	
+	body{
+		/*background-color:lightblue;*/
+			background-image:url("images.jpg");
+			background-size:cover;
+			}
+	
+		body{
+			background-color:lightblue;
+			}
+			
+			h1{
+				color:whitesmoke;
+				font-style:italic;
+				text-align:center;
+				font-size:45px;
+				}
+				.text-merah{
+					color:red;
+					}
+					#text-kuning{
+						color:yellow;
+						}
+					textarea,select,input[type="text"],[type="email"],[type="date"],[type="file"]{
+						border-radius:10px;
+						background-color:lightpink;
+						width:80%;
+						padding:10px;
+						color:magenta;
+						border-color:magenta;
+						}
+						*{
+						color:black;
+						font-family:Arial;
+						font-style:italic;
+						text-align:center;
+						}
+						.button{
+							background-color:lightblue;
+							padding:5px;
+							font-weight:bold;
+							border-radius:5px;
+							border-color:darkblue;
+							}
+							.buttton:hover{
+							background-color:darkblue;
+							padding:15px;
+							font-weight:bold;
+							border-radius:15px;
+							border-color:lightblue;
+							color:white;
+							}
+			
+						table{
+							background-color:rgb(231,227,222);
+							opacity:0.93;
+							}
+					
+			</style>
     <title>Form Tugas HTML</title>
 </head>
 <body>
     <h1>Form Pendaftaran</h1>
+	<h1 class="text-merah">Data Mahasiswa</h1>
+	<h1 id="text-kuning">Data Mahasiswa</h1>
     <form method="" action="">
         <table>
 		<tr>
@@ -130,8 +192,8 @@
                 </tr>
                 <tr>
                     <td colspan="2" align="left">
-					<input type="submit" name="simpan" id="simpan">
-                    <input type="reset" name="reset" id="reset"></td>
+					<input type="submit" name="button" id="simpan">
+                    <input type="reset" name="button" id="reset"></td>
                
             </table>
         </fieldset>
